@@ -11,12 +11,12 @@ function tellStory() {
   // Here, we are getting the value of the input element by the ID.
   // Get the value of all of the other variables in the same way.
   var name = document.getElementById("name").value;
-  var place;
-  var number;
-  var time;
-  var animal;
-  var adjective;
-  var friend;
+  var place = document.getElementById("place").value;
+  var number = document.getElementById("number").value;
+  var time = document.getElementById("time").value;
+  var animal = document.getElementById("animal").value;
+  var adjective = document.getElementById("adjective").value;
+  var friend = document.getElementById("friend").value;
 
   /*
     What if you get a unit of time that should be plural? Or what if you get a
